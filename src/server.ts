@@ -1,9 +1,3 @@
-import express from 'express'
+import app from './app'
 
-const app = express()
-
-app.get('/', (req, res) => {
-  return res.json({ message: 'forbidden' })
-})
-
-app.listen(3000)
+app.listen(3333)
